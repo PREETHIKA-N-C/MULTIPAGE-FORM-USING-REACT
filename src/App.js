@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+import {Routes,Route} from "react-router-dom";
 import './App.css';
+import PersonalInfo from "./Form/PersonalInfo";
+import BookingInfo from "./Form/BookingInfo";
+import SpecialRequirement from "./Form/SpecialRequirement";
+import SuccessMessage from "./Form/SuccessMessage";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Routes>
+        <Route path="/" element={<PersonalInfo/>}/>
+        <Route path="BookingInfo" element={<BookingInfo/>}/>
+        <Route path="SpecialRequirement" element={<SpecialRequirement/>}/>
+        <Route path="SuccessMessage" element={<SuccessMessage/>}/>
+      </Routes>
     </div>
   );
 }

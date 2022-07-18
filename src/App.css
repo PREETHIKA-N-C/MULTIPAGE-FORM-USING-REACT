@@ -1,38 +1,118 @@
-.App {
+.App{
+  font-family: "Times New Roman", Times, serif;
   text-align: center;
+  background-image: url("https://thumbs.dreamstime.com/b/marble-texture-table-top-blurred-kitchen-window-interior-background-219927161.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  overflow-y: scroll;
+}
+.formContainer{
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 80%;
+  position: relative;
+  padding: 40px;
+  box-sizing: border-box;
+  background-image: url("https://img.freepik.com/premium-vector/white-elegant-texture-wallpaper_23-2148421854.jpg?w=2000");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+}
+.Title{
+  margin-top: 40px;
+}
+.label{
+  margin-top: 15px;
+  font-size: 20px;
+}
+.labelOp{
+  margin-top: 15px;
+  font-size: 20px;
+}
+.FName{
+  width: 40%;
+  height: 40px;
+  background-color: white;
+  margin-right: 5px;
+  padding-left: 6px;
+}
+.LName{
+  width: 39.5%;
+  height: 40px;
+  background-color: white;
+  padding-left: 6px;
+}
+.Address{
+  width: 80%;
+  height: 40px;
+  background-color: white;
+  margin-bottom: 15px;
+  padding-left: 6px;
+}
+.city{
+  width: 26.6%;
+  height: 40px;
+  background-color: white;
+  margin-right: 5px;
+  padding-left: 6px;
+}
+.zipcode{
+  width: 26%;
+  height: 40px;
+  background-color: white;
+  padding-left: 6px;
+  padding-left: 6px;
+}
+.option{
+  padding-left: 6px;
+}
+.txtArea{
+  width: 80%;
+  height: 80%;
+  background-color: white;
+  margin-bottom: 35px;
+  padding-left: 6px;
+  overflow-y: scroll;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.infoTxt{
+  margin:auto;
+  width: 95%;
+  font-size: 20px;
+  font-weight: bold;
+  color: grey;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.submitButton{
   color: white;
+  width: 15%;
+  height: 39.5px;
+  font-size: 20px;
+  padding: 2px;
+  margin: 10px 10px 10px 10px;
 }
-
-.App-link {
-  color: #61dafb;
+.successPage{
+  background-image: url("https://img.freepik.com/premium-vector/white-elegant-texture-wallpaper_23-2148421854.jpg?w=2000");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  overflow-x: scroll;
+  width: 100%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.MessageBox{
+  background-color: #00ff00	;
+  Height: 50%;
+  width: 90%;
+  margin: auto;
+  margin-top: 10%;
+  border-radius: 20px;
+}
+.successTitle{
+  padding-top: 9%;
+}
+.successBody{
+  font-size: 25px;
+  padding-top: 5px;
 }
